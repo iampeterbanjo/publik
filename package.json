@@ -1,7 +1,7 @@
 {
-  "name": "hello-blockstack",
-  "version": "0.0.0",
-  "description": "A simple Blockstack app using ReactJS",
+  "name": "publik-blockstack",
+  "version": "1.0.0",
+  "description": "micro-blogging application using multi-player Gaia storage",
   "main": "index.js",
   "scripts": {
     "clean": "yarn rimraf dist node_modules",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockstack/hello-blockstack.git"
+    "url": "git+https://github.com/iampeterbanjo/publik.git"
   },
   "bugs": {
-    "url": "https://github.com/blockstack/hello-blockstack/issues"
+    "url": "https://github.com/iampeterbanjo/publik/issues"
   },
-  "homepage": "https://github.com/blockstack/hello-blockstack#readme",
+  "homepage": "https://github.com/iampeterbanjo/publik#readme",
   "author": "",
   "license": "MIT",
   "devDependencies": {
