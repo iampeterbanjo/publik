@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css'; // Import precompiled Bootstrap css
+import '@fortawesome/fontawesome-free/css/all.css';
+
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './components/App.jsx';
-
-// Require Sass file so webpack can build it
-import bootstrap from 'bootstrap/dist/css/bootstrap.css';
-import style from './styles/style.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
